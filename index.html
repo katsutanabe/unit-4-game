@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+  <div class="container">
+      <!--Crsytal col jumboT-->
+        <div class="jumbotron" style="background-color: rgb(97, 28, 153); color: white">
+          <div class="container">
+            <h1 class="text-center"><strong>Crystal Collector</strong></h1>
+          </div>  
+    </div>
+    <!--content row-->
+   <div class="row">
+      <!--instructions cont-->
+      <div class="col-lg-12">
+        <div class="card">
+          <h3 class="card-header text-center bg-warning">Instructions</h3>
+            
+          </div>
+        </div>
+        <div class="card-body">
+         <p>You will be given a random number at the start of the game.
+            There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+            You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+            The value of each crystal is hidden from you until you click on it.
+            Each time when the game starts, the game will change the values of each crystal</p>
+        </div>
+      </div>
+   </div> 
+   <div class="row">
+      <!--Score-->
+   <div class="col-lg-3">
+      <div class="card">
+          <div class="card-header bg-primary">
+            <h3 class="text-center">Target Score</h3>
+          </div>
+          <div class="card-body">
+            <h3 class="text-center"><strong>80</strong></h3>
+          </div>
+      </div>
+   </div>
+   <!-- Your Score-->
+   <div class="col-lg-3">
+      <div class="card">
+          <div class="card-header bg-primary">
+            <h3 class="text-center">Your Score</h3>
+          </div>
+          <div class="card-body">
+            <h3 class="text-center"><strong>30</strong></h3>
+          </div>
+      </div>
+   </div>
+   <!--crystal pic-->
+   <div class="col-lg-6">
+      <div class="card">
+          <div class="card-header bg-primary">
+            <h3 class="text-center">Crystal Selections</h3>
+          </div>
+          <div class="card-body text-center">
+              <img src= "assets/images/bluecrystal.jpg"height="100px" width="100px"id="blue">
+              <img src= "assets/images/greencrystal.png"height="100px" width="100px" id="green">
+              <img src= "assets/images/redcrystal.jpg"height="100px" width="100px" id="red">
+              <img src= "assets/images/yellowcrystal.png"height="100px" width="100px" id="yellow">
+            
+          </div>
+      </div>
+      </div>
+   </div>
+  <div class="row">
+      <div class="col-lg-6">
+          <div class="card">
+              <div class="card-header bg-primary">
+                <h3 class="text-center">Win Count</h3>
+              </div>
+              <div class="card-body">
+                <h3 class="text-center"><strong>0</strong></h3>
+              </div>
+          </div>
+       </div>
+       <div class="col-lg-6">
+          <div class="card">
+              <div class="card-header bg-primary">
+                <h3 class="text-center">Loss Count</h3>
+              </div>
+              <div class="card-body">
+                <h3 class="text-center"><strong>0</strong></h3>
+              </div>
+          </div>
+       </div>
+  </div> 
+  
+  </div>
+  </div>
+ 
+  <script src="assets/javascript/game.js"></script>
+
+      
+    <!--java script -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+</body>
+</html>
